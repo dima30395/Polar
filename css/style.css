@@ -682,6 +682,7 @@ body{
         padding: 70px 0 50px;
     }
 }
+
 @media(max-width: 860px){
     .header__btn-top{
         display: none;
@@ -729,6 +730,12 @@ body{
         margin-bottom: 10px;
     }
 }
+@media(max-height: 800px){
+    .header__img{
+        width: 330px;
+    }
+    
+}
 @media(max-width: 752px){
     .order__inner{
         flex-wrap: wrap;
@@ -749,6 +756,13 @@ body{
     }
     .footer__nav{
         margin-right: 60px;
+    }
+}
+@media(max-height: 600px){
+    .header__img{
+        width: 280px;
+        right: 0;
+        bottom: 0;
     }
 }
 @media(max-width: 610px){
@@ -833,6 +847,12 @@ body{
     }
 
 }
+
+@media(max-height: 570px){
+    .header__img{
+        right: 52%;
+    }
+}
 @media(max-width: 540px){
     .footer__social {
         max-width: 320px;
@@ -913,3 +933,5 @@ body{
         font-size: 28px;
     }
 }
+
+
